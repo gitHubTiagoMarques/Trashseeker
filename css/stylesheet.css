@@ -1,0 +1,234 @@
+body{
+    overflow-y: hidden;
+    overflow-x: hidden;
+    font-family: 'Press Start 2P', cursive;
+}
+#fundo{
+    position: absolute;
+    z-index: -100;
+    left: -2px;
+    top: -2px;
+    width: 101%;
+    height: 101%;
+
+}
+#fundodrown,#vermelho,#verde,#fundorain,#fundorun,#imgcomo1,#imgcomo2,#imgcomo3{
+    position: absolute;
+    width: 100%;
+    z-index: -100;
+    display: none;
+    height: 100%;
+}
+
+#chuva{
+    position: absolute;
+    width: 100%;
+    z-index: 50;
+    display: none;
+    height: 1180px;
+}
+
+
+.img_logo{
+    height: 300px;
+    width: 600px;
+    text-align: center;
+    margin: auto;
+}
+.frame_img{
+    text-align: center;
+    margin: 0 -20px 0 0;
+}
+
+.botao{
+    text-align: center;
+    margin-top: 30px;
+    padding: 20px 20px 20px 20px;
+    background-color: #9EC73C;
+    color: whitesmoke;
+    border: 5px solid #569333 ;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 20px;
+    min-width: 320px;
+
+}
+.botao:hover{
+    text-align: center;
+    margin-top: 30px;
+    padding: 20px 20px 20px 20px;
+    background-color: #569333;
+    color: whitesmoke;
+    text-decoration: none;
+    border: 5px solid #9EC73C;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 20px;
+    animation: ease-in 0.7s;
+
+}
+
+.box{
+    width: 500px;
+    height: 500px;
+    background-color: transparent;
+    margin: auto ;
+    text-align: center;
+    border: 2px transparent;
+    position: relative;
+    top: -5rem;
+
+}
+
+.botao-group{
+    margin-top: 110px;
+}
+
+#pg_escolher,#pg_dificuldade,#pg_como{
+    display: none;
+}
+
+#pg_perdeu,#video{
+    display: none;
+}
+
+#poste{
+    position: absolute;
+    left: 921px;
+    display: none;
+    top: 118px;
+}
+
+#jogdrown{
+    position: absolute;
+    left: 859px;
+    display: none;
+    height: 150px;
+}
+
+#agua{
+    display: none;
+    position: absolute;
+    width: 100%;
+}
+
+#jograin {
+    position: absolute;
+    top: 775px;
+    display: none;
+    height: 175px;
+}
+
+#hearts{
+    text-align: center;
+    display: none;
+}
+
+#heart1,#heart2,#heart3{
+    height: 85px;
+}
+
+#barco{
+    position: relative;
+    height: 200px;
+    left: 130px;
+    top: 740px;
+    display: none;
+}
+
+#espuma{
+    position: absolute;
+    height: 275px;
+    left: 100px;
+    top: 710px;
+    display: none;
+}
+
+.salto{
+    animation: salto 0.7s linear;
+}
+
+@keyframes salto {
+    0% {
+        top: 740px;
+    }
+
+    30% {
+        top: 575px;
+    }
+
+    50% {
+        top: 450px;
+    }
+
+    80% {
+        top: 575px;
+    }
+
+    100% {
+        top: 740px;
+    }
+}
+
+#obstaculo{
+    position: absolute;
+    height: 110px;
+    top: 830px;
+    left: 1620px;
+    display: none;
+
+    animation: obstaculo 1.5s infinite;
+}
+
+@keyframes obstaculo {
+    0% {
+        left: 1920px;
+    }
+    100% {
+        left: -350px;
+    }
+}
+
+#score{
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+    display: none;
+    color: red;
+    font-size: 60px;
+    text-align: center;
+    top: 500px;
+    white-space: nowrap;
+}
+
+.botao_voltar {
+    position: absolute;
+    text-align: center;
+    margin-left: 20px;
+    margin-top: 20px;
+    padding: 10px 10px 10px 10px;
+    background-color: #9EC73C;
+    color: whitesmoke;
+    border: 5px solid #569333;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 20px;
+    display: none;
+}
+
+.botao_voltar:hover{
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px 10px 10px 10px;
+    background-color: #569333;
+    color: whitesmoke;
+    text-decoration: none;
+    border: 5px solid #9EC73C;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 20px;
+    animation: ease-in 0.7s;
+}
+
+
+
+
